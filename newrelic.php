@@ -79,14 +79,12 @@ function newrelic_civicrm_entityTypes(&$entityTypes) {
   _newrelic_civix_civicrm_entityTypes($entityTypes);
 }
 
-// --- Functions below this ship commented out. Uncomment as required. ---
-
 /**
- * Implements hook_civicrm_unhandledException().
+ * Implements hook_civicrm_unhandled_exception().
  *
  * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_unhandledException
  */
-function newrelic_civicrm_unhandledException($exception, $request = NULL) {
+function newrelic_civicrm_unhandled_exception($exception, $request = NULL) {
   // Don't do anything if the New Relic PHP library is not loaded.
   if (!function_exists('newrelic_notice_error')) {
     return;
