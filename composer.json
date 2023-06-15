@@ -1,7 +1,7 @@
 {
     "name": "australian_greens/au.org.greens.newrelic",
     "description": "Australian Greens CiviCRM Extension to forward exceptions to New Relic",
-    "type": "drupal-module",
+    "type": "civicrm-ext",
     "authors": [
       {
         "name": "Effy Elden",
@@ -9,6 +9,6 @@
       }
     ],
     "require": {
-      "composer/installers": "~1.0"
+      "composer/installers": "^1.6"
     }
   }
