@@ -18,15 +18,15 @@
   <version>1.0.0</version>
   <develStage>stable</develStage>
   <compatibility>
-    <ver>5.0</ver>
+    <ver>5.27</ver>
   </compatibility>
-  <comments></comments>
+  <comments/>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
   <civix>
     <namespace>CRM/Newrelic</namespace>
-    <format>22.05.0</format>
+    <format>23.02.1</format>
     <angularModule>crmNewrelic</angularModule>
   </civix>
   <mixins>
